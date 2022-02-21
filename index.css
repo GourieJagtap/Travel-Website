@@ -9,6 +9,8 @@ header{
     background-color: rgb(255, 255, 255);
     padding:20px;
     height:40px;
+    /* z-index: -1; */
+    /* position:fixed; */
 }
 div .logo {
     color: white;
@@ -69,7 +71,7 @@ li a:hover,li a:active{
     position: fixed;
     width:100%;
 }
-@media(max-width:600px){
+@media(max-width:800px){
     html{
         padding: 0;
     }
@@ -128,15 +130,32 @@ body{
     width: 100%;
     top: 90px;
     position:relative;
+    z-index: -1;
 }
 .slides{
     display: none;
 }
 .txt{
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
+    width: auto;
+    margin-left:10px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Arial;
+    background-color:rgba(0, 0, 0, 0.438);
+}
+.txt1{
+    position: absolute;
+    bottom: 7px;
     text-align: center;
-    width: 100%;
+    width: auto;
+    margin-left:10px;
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: "Helvetica Neue",Arial;
     background-color:rgba(0, 0, 0, 0.438);
 }
 img{
@@ -152,7 +171,9 @@ img{
 }
 #left{
     float:left;
+    /* font-size:20px; */
 }
 #right{
     right: 0;
+    /* font-size:20px; */
 }
