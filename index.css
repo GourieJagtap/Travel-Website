@@ -234,7 +234,7 @@ img{
     height: 200px;
     background-size: cover;
 }
-.car-1{
+.card-1{
     background-image: url(images/khajurahu.jpg);
     border-radius: 10px;
 }
@@ -242,4 +242,24 @@ img{
     color:white;
     text-decoration:none;
     text-align: center;
+}
+.card-2{
+    background-image: url(images/africa.jpg);
+    border-radius: 10px;
+}
+.card-3{
+    background-image: url(images/N-America.jpg);
+    border-radius: 10px;
+}
+.card-4{
+    background-image: url(images/s-America.avif);
+    border-radius: 10px;
+}
+.card-5{
+    background-image: url(images/europe.avif);
+    border-radius: 10px;
+}
+.card-6{
+    background-image: url(images/australia.avif);
+    border-radius: 10px;
 }
