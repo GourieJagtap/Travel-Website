@@ -11,7 +11,7 @@ header{
     height:40px;
     z-index: 1;
     position:fixed;
-    z-index: 1;
+    /* z-index: 1; */
     width:100%;
 }
 div .logo {
@@ -32,15 +32,15 @@ div .logo a{
     
 }
 
-ul{
+ ul{
     display:flex;
     justify-content:flex-end;
 }
-li{
+ li{
     list-style-type:none;
     right: 0;
 }
-li a{
+ li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding:0 30px;
@@ -48,7 +48,7 @@ li a{
     font-weight:550;
     letter-spacing:2px;  
 }
-li a:hover,li a:active{
+ li a:hover,li a:active{
     text-shadow: 2px 2px 1px #C0C0C0;
     font-size: 27px;
     font-weight: 650;
@@ -139,7 +139,7 @@ body{
     width: 100%;
     height:auto;
     top: 90px;
-    position:absolute;
+    position:relative;
     z-index: -1;
 }
 .slides{
@@ -191,7 +191,55 @@ img{
 
 /* body */
 #abt-us{
-    position:absolute;
+    position:relative;
     padding:30px;
-    top: 530px;
+    top: 100px;
+    z-index: -1;
+    background-color: rgba(124, 136, 132, 0.404);
+}
+
+.context-abt-us{
+    background-color:rgb(241, 241, 241);
+    padding:30px;
+    border-radius:5px;
+}
+/* tours */
+.tours-countries{
+    /* top:auto; */
+    position: relative;
+    top: 110px;
+    border:2px solid black;
+    margin: 5px 10px;
+    z-index: -1;
+}
+.tours-countries h1{
+    text-align: center;
+    border-bottom: .1px solid red;
+}
+.tours-countries .country-list{
+    position: relative;
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:red;
+    margin: 30px;
+    width:300px;
+    height:230px;
+    border-radius: 10px;
+}
+.card-img{
+    background-color:rgb(110, 82, 82);
+    height: 200px;
+    background-size: cover;
+}
+.car-1{
+    background-image: url(images/khajurahu.jpg);
+    border-radius: 10px;
+}
+.card a{
+    color:white;
+    text-decoration:none;
+    text-align: center;
 }
